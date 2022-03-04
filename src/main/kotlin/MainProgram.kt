@@ -1,3 +1,7 @@
-fun main(args: Array<String>){
-    println("Hello world!")
+import functional.Functional
+
+fun main() {
+    val functionalExample = Functional()
+    functionalExample.printMap{ m -> println(m)}
+    functionalExample.printFlatMap{ m -> println(m)}
 }
