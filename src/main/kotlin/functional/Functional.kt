@@ -19,6 +19,7 @@ class Functional {
         }
 
         fn("Printing flatMap")
+        
         fn(map1.toString())
     }
 }
